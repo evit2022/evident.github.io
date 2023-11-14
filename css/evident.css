@@ -1,0 +1,29 @@
+.m-slider-v2 .m-slide__media,
+.m-slider-v2 .m-slide__media img {
+  width: 100%;
+  padding-top: 24px !important;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.site-header {
+  --header-main-vertical-padding: 0.2vmin !important;
+}
+.services_item .c-block__text-headline span {
+  color: #29b473 !important;
+}
+.fa_icon1 {
+  color: #ffffff;
+  margin-left: 900px;
+  margin-top: 40px;
+}
+.fa_icon {
+  color: #29b473;
+}
+
+.head_1 {
+  color: #2bcef7;
+  font-size: 18px;
+}

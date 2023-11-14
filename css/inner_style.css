@@ -1,0 +1,144 @@
+.s-services {
+  padding: 2vmin 0 7.5vmin !important;
+}
+
+.m-slider-v2 .l-slider-nav__inner {
+  height: 20% !important;
+  position: none !important;
+}
+.l-slider-double-cards {
+  border-bottom: none !important;
+}
+
+.s-our-work {
+  background-color: none;
+}
+.wp-block-embed.aligncenter div,
+.wp-block-embed.aligncenter img {
+  margin-inline: auto;
+}
+
+main {
+  background-color: #070b36 !important;
+}
+.c-block__body {
+  color: #29b473 !important;
+}
+.m-slider__wrapper {
+  height: 0px !important;
+}
+.submitting .wpcf7-submit {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.c-block__number {
+  color: #29b473 !important;
+}
+
+@media (max-width: 1025px) {
+  .nav-main__wrap .sub-menu a {
+    font-size: 18px;
+  }
+
+  .home-hero .m-banner__media video {
+    display: none;
+  }
+  .nav-active .site-header {
+    z-index: 103;
+  }
+
+  .hero .c-block__media.projects .c-tbnav__label-ico {
+    top: 0;
+  }
+  body.raq-active .footer-menu {
+    bottom: 70px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .m-partners__top {
+    max-width: 1200px;
+  }
+}
+
+.s-our-work {
+  overflow: hidden !important;
+}
+
+.l-sign-up .c-form .wpcf7-form.invalid .wpcf7-not-valid-tip {
+  top: auto;
+}
+
+.dt-subscribe__bottom .wpcf7-not-valid-tip {
+  position: absolute;
+}
+
+/* OLD */
+
+.s-difference.bg-dark {
+  color: #fff;
+}
+
+.c-btn.-blue-grad {
+  --btn-padding-top-bottom: 10px;
+  --btn-padding-left-right: 1.5em;
+}
+.c-btn.-blue-grad > span {
+  padding-top: 1px;
+}
+
+.ba-single__tabs .c-tbnav:hover {
+  color: var(--tbnav-color-active);
+}
+
+.services .c-block__description > .services_item {
+  width: 100% !important;
+}
+
+@media (min-width: 1113px) and (max-width: 1659px) {
+  .hero .hero__item .c-block__inner {
+    padding: 18vmin 0 0 0;
+  }
+}
+
+.form-section .wpcf7 form .wpcf7-response-output {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1980px) {
+  .m-tabs .tabs-overlay .s-our-work__overlay::after {
+    background: linear-gradient(to top, #02052d 0, rgba(42, 24, 98, 0) 100%);
+  }
+}
+
+.s-experts .c-image img {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .m-tabs .l-dcbl .c-block__media:first-child {
+    margin-bottom: 0;
+  }
+  .m-tabs .l-tbpanel__item {
+    padding-bottom: 0;
+  }
+
+  .m-slide__mediaa {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .s-experts .c-image img {
+    max-height: 110px;
+  }
+  .c-form__whitepaper .whitepaper-form {
+    align-items: flex-start;
+  }
+  .single-post .is-provider-youtube iframe,
+  .single-post .is-provider-vimeo iframe {
+    width: 610px;
+    height: 342px;
+  }
+}

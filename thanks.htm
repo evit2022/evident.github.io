@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3N1MLMCQ2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-Y3N1MLMCQ2');
+  </script>
+
+  
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Evident Creative | Tech | Business</title>
+<meta name="description" content="Results-Focused reates SUPERIOR digital experiences to Grow Brands Online. View Our Work &gt;">
+<meta property="og:type" content="website">
+<link rel="stylesheet "  href="css/evident.css">
+
+
+<link rel="preload" id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css?ver=1' as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all'>
+</noscript><link rel="preload" id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.3' as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.3' type='text/css' media='all'>
+</noscript><link rel="preload" id='dae-fa-css' href='wp-content/plugins/download-after-email/css/all.css?ver=6.1.1' as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel='stylesheet' id='dae-fa-css' href='wp-content/plugins/download-after-email/css/all.css?ver=6.1.1' type='text/css' media='all'>
+</noscript><link rel="preload" id='wpcf7-redirect-script-frontend-css' href='wp-content/plugins/wpcf7-redirect/build/css/wpcf7-redirect-frontend.min.css?ver=6.1.1' as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel='stylesheet' id='wpcf7-redirect-script-frontend-css' href='wp-content/plugins/wpcf7-redirect/build/css/wpcf7-redirect-frontend.min.css?ver=6.1.1' type='text/css' media='all'>
+</noscript><link rel='stylesheet' id='site-critical-css' href='css/critical.css?ver=1.8' type='text/css' media='all'>
+<link rel="preload" id='main-css-css' href='css/main.css?ver=1.8' as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel='stylesheet' id='main-css-css' href='css/main.css?ver=1.8' type='text/css' media='all'>
+</noscript><link rel="preload" id='swiper-css-css' href='swiper/swiper-bundle.min.css?ver=1.8' as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel='stylesheet' id='swiper-css-css' href='swiper/swiper-bundle.min.css?ver=1.8' type='text/css' media='all'>
+</noscript><script type='text/javascript' id='jquery-core-js-extra'>
+/* <![CDATA[ */
+/* ]]> */
+</script>
+
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' defer="" src='cssrelpreload.js' id='loadCSS-js'></script>
+<link rel="https://api.w.org/" href="wp-json/index.htm"><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/8"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
+<link rel='shortlink' href='index-1.htm'>
+
+
+<script type="text/javascript" class="hsq-set-content-id" data-content-id="standard-page">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "standard-page"]);
+			</script>
+<link rel="preload" id='main-css-css' href='css/inner_style.css' as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="icon" href="images/favicon_32x32.png" sizes="32x32">
+
+<link rel="icon" href="images/favicon_32x32.png" sizes="192x192">
+<link rel="apple-touch-icon" href="images/favicon_32x32.png">
+<meta name="msapplication-TileImage" content="images/favicon_32x32.png">
+
+
+      
+
+
+</head>
+<body class="home page-template page-template-templates page-template-template-ds-blocks page-template-templatestemplate-ds-blocks-php page page-id-8">
+
+<div class="wrapped">
+    <h4 class="sent-notification"></h4>
+    
+    <form id="myform">
+
+    Enter Name:	<input id="name" type="text" placeholder="Enter Name" >
+    
+    Enter Email Address:<input id="email" type="text" placeholder="Enter Email" >
+    Enter Mobile Number:<input id="number" type="text" placeholder="Enter Mobile Number">
+    Enter Message:<textarea id="body" rows="3" placeholder="Type Message "></textarea>
+
+    
+    <button type="submit" onclick="sentEmail()" value="Send Form">
+    </form> </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js" ></script>
+<script type="text/javascript">
+
+function sentEmail(){
+var name = $("#name");
+var email = $("#email");
+var subject = $("#subject");
+var body = $("#body");
+
+if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) &&isNotEmpty(body)){
+
+
+$.ajax({
+
+url:'sendEmail.php',
+method:'POST',
+dataType:'json',
+data:{
+  name:name.val(),
+  email:email.val(),
+  subject:subject.val(),
+  body:body.val()
+
+
+}, success: function(response){
+  $('#myform')[0].reset();
+  $('.sent-notfication').text("message sent sucessfully.");
+}
+
+
+});
+
+}
+
+}
+function isNotEmpty(caller){
+if(caller.var() == ""){
+
+caller.css('border','1px solid red');
+return false;
+}else{
+
+  caller.css('border', '');
+  return true;
+
+}
+
+}
+
+
+
+</script>
+
+</body>
+</html>
